@@ -1,0 +1,18 @@
+package com;
+
+class CustomException extends Exception{
+	
+	
+	public myCustomException(String str) {
+		
+	}
+}
+
+public class ExceptionExample {
+
+	public static void main(String[] args) {
+		 
+
+	}
+
+}

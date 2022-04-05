@@ -1,0 +1,16 @@
+package com;
+
+class ABC{
+	ABC(){
+		System.out.println("ABC's Constructor");
+	}
+}
+
+public class ConstructorChaining {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

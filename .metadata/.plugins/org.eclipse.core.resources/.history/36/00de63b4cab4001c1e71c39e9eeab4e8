@@ -1,0 +1,15 @@
+package com;
+
+public class ThreadExample extends Thread {
+
+	public static void main(String[] args) {
+		Thread t = new Thread(new ThreadExample());
+		t.start();
+
+	}
+
+	 public void run () {
+		 System.out.println("theard run method");
+	 }
+
+}

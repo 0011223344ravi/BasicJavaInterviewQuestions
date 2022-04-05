@@ -1,0 +1,15 @@
+package com;
+
+ 
+
+public class ConstructorChaining {
+	ConstructorChaining(){
+	this("this is contructor chaining");
+	}
+
+	public static void main(String[] args) {
+		 
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com;
+
+ 
+
+public class ConstructorChaining {
+	ConstructorChaining(){
+	this("this is contructor chaining");
+	}
+
+  ConstructorChaining(String string) {
+		 System.out.println(string);
+	}
+
+	public static void main(String[] args) {
+		 
+
+	}
+
+}

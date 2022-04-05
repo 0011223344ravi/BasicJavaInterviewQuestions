@@ -1,0 +1,11 @@
+package com;
+
+public class ClonningExample implements Cloneable {
+
+	public static void main(String[] args) {
+		 
+		ClonningExample obj = new ClonningExample();
+		obj.clone();
+	}
+
+}

@@ -1,0 +1,28 @@
+package com;
+
+class Parent {
+	
+	
+	public static void display() {
+		
+		System.out.println("parent class display()");
+	}
+}
+
+public class MethodHiding {
+	
+public static void display() {
+	
+		
+		System.out.println("child class display()");
+	}
+
+	public static void main(String[] args) {
+		 display();
+		 Parent p = new MethodHiding();
+		 Parent p1 = new Parent();
+		 
+
+	}
+
+}

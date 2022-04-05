@@ -1,0 +1,19 @@
+package com;
+
+class ABC{
+	ABC(){
+		System.out.println("ABC's Constructor");
+	}
+}
+
+public class ConstructorChaining {
+	ConstructorChaining(){
+		
+	}
+
+	public static void main(String[] args) {
+		 
+
+	}
+
+}

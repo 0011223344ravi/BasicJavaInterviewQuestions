@@ -1,0 +1,47 @@
+package com;
+
+class Parent {
+	
+	
+	public  static  void display() {
+		
+		System.out.println("parent class display()");
+	}
+	
+public void display1() {
+		
+		System.out.println("parent class display1()");
+	}
+}
+
+public class MethodHiding extends Parent  {
+	
+public static   void display() {
+	
+		
+		System.out.println("child class display()");
+	}
+
+public  void display1() {
+	
+	System.out.println("parent class display1()");
+}
+
+	public static void main(String[] args) {
+		  
+	     Parent p =new MethodHiding();
+		 Parent p1 = new Parent();
+		 p.display();
+		 p1.display();
+		 p.display1();
+		 p1.display1();
+		 
+		 ///using the static method leads to method hiding so 
+		 //only parent class method is called both the times. 
+		 
+		 
+		 
+
+	}
+
+}
